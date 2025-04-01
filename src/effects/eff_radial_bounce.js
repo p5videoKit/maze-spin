@@ -1,12 +1,22 @@
-// https://editor.p5js.org/jht9629-nyu/sketches/pouiEda3o
-// video radial bounce v2
+//
+export default class eff_radial_bounce {
+  static meta_props = [{ prop: 'npoints', selection: [9000, 3000, 2500] }];
+
+  constructor(props) {
+    Object.assign(this, props);
+    console.log('eff_radial_bounce props', props);
+  }
+
+  prepareOutput() {
+    console.log('eff_radial_bounce prepareOutput');
+  }
+}
 
 let my = {};
 
 function setup() {
-
   createCanvas(windowWidth, windowHeight);
-  
+
   my_setup();
   my_resize();
 
@@ -41,7 +51,7 @@ function my_setup() {
 
   // my.secsPerUpdate = 0.1;
   // my.secsPerUpdate = 0.01;
-  my.secsPerUpdate = 0.00;
+  my.secsPerUpdate = 0.0;
   my.secsDelta = 0;
 
   // my.x0;
@@ -55,7 +65,7 @@ function my_resize() {
   // my.height = windowHeight;
   my.x0 = Math.floor(width / 2);
   my.y0 = Math.floor(height / 2);
-  my.xposEnd = Math.max(width,height) ;
+  my.xposEnd = Math.max(width, height);
 }
 
 function draw_out() {
@@ -66,8 +76,8 @@ function draw_out() {
   let x1 = r * cos(rang);
   let y1 = r * sin(rang);
 
-  let x = my.x0 + x1
-  let y =  my.y0 + y1
+  let x = my.x0 + x1;
+  let y = my.y0 + y1;
   let c1 = my.img.get(x, y);
   stroke(c1);
   fill(c1);
@@ -144,3 +154,6 @@ function windowResized() {
 
 // https://editor.p5js.org/jht9629-nyu/sketches/hmPJyOAk1
 // video scan radial bounce
+
+// https://editor.p5js.org/jht9629-nyu/sketches/pouiEda3o
+// video radial bounce v2

@@ -7,6 +7,11 @@
 // https://editor.p5js.org/picticon/sketches/Ah-OhNJ-B
 // Field rainstorm by picticon
 
+// https://thecodingtrain.com/challenges/181-image-stippling
+// Organic Polygon Camera by C. Randall
+// https://editor.p5js.org/picticon/sketches/Ah-OhNJ-B
+// Field rainstorm by picticon
+
 let organic = true; // randomly moves points around
 
 let points = [];

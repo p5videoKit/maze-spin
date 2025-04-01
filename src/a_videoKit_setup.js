@@ -16,6 +16,8 @@ let videoKit_config = {
   effects: [
     //
     { label: 'maze_spin', import_path: 'effects/maze_spin/eff_maze_spin.js', ui_label: 'maze_spin' },
+    { label: 'field_rainstorm', import_path: 'effects/eff_field_rainstorm.js' },
+    { label: 'radial_bounce', import_path: 'effects/eff_radial_bounce.js' },
   ],
 
   // settings for import, will appear in the settings menu

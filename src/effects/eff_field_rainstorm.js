@@ -1,11 +1,16 @@
-// https://editor.p5js.org/jht9629-nyu/sketches/kmsBYRROJ
-// Field rainstorm v1 responsive
+//
+export default class eff_field_rainstorm {
+  static meta_props = [{ prop: 'npoints', selection: [9000, 3000, 2500] }];
 
-// https://editor.p5js.org/jht9629-nyu/sketches/EUYEkY-fV
-// Field rainstorm v0
+  constructor(props) {
+    Object.assign(this, props);
+    console.log('eff_field_rainstorm props', props);
+  }
 
-// https://editor.p5js.org/picticon/sketches/Ah-OhNJ-B
-// Field rainstorm by picticon
+  prepareOutput() {
+    console.log('eff_field_rainstorm prepareOutput');
+  }
+}
 
 let organic = true; // randomly moves points around
 
@@ -225,3 +230,17 @@ function ui_present_window() {
   resizeCanvas(windowWidth, windowHeight);
   // init_dim();
 }
+
+// https://editor.p5js.org/jht9629-nyu/sketches/kmsBYRROJ
+// Field rainstorm v1 responsive
+
+// https://editor.p5js.org/jht9629-nyu/sketches/EUYEkY-fV
+// Field rainstorm v0
+
+// https://editor.p5js.org/picticon/sketches/Ah-OhNJ-B
+// Field rainstorm by picticon
+
+// https://thecodingtrain.com/challenges/181-image-stippling
+// Organic Polygon Camera by C. Randall
+// https://editor.p5js.org/picticon/sketches/Ah-OhNJ-B
+// Field rainstorm by picticon
