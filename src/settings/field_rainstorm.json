@@ -1,11 +1,11 @@
 {
-  "setting": "",
+  "setting": "field_rainstorm",
   "comment": "field_rainstorm",
   "back_color": 200,
   "room_name": "VideoKit-Room-1",
   "patch_layout": "2x2",
   "canvas_size": "960x540",
-  "capture_size": "default",
+  "capture_size": "480x270",
   "render_size": "Canvas",
   "chat_name": "jht",
   "chat_chk": 0,
