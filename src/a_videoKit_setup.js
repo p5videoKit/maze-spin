@@ -26,5 +26,6 @@ let videoKit_config = {
     { label: 'period', import_path: 'settings/period.json' },
     { label: 'field_rainstorm', import_path: 'settings/field_rainstorm.json' },
     { label: 'radial_bounce', import_path: 'settings/radial_bounce.json' },
+    { label: 'radial_bounce_1x4', import_path: 'settings/radial_bounce_1x4.json' },
   ],
 };
