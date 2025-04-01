@@ -20,5 +20,5 @@ let videoKit_config = {
 
   // settings for import, will appear in the settings menu
 
-  settings: [{ label: 'videoKit', import_path: 'settings/videoKit.json' }],
+  settings: [{ label: 'period', import_path: 'settings/period.json' }],
 };
