@@ -22,5 +22,9 @@ let videoKit_config = {
 
   // settings for import, will appear in the settings menu
 
-  settings: [{ label: 'period', import_path: 'settings/period.json' }],
+  settings: [
+    { label: 'period', import_path: 'settings/period.json' },
+    { label: 'field_rainstorm', import_path: 'settings/field_rainstorm.json' },
+    { label: 'radial_bounce', import_path: 'settings/radial_bounce.json' },
+  ],
 };
