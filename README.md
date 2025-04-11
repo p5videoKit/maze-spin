@@ -4,8 +4,6 @@
 
 - [enter](./src?v=7)
 
-radial_bounce_1x4
-
 - [radial_bounce_1x4](./src?v=7&d=settings/radial_bounce_1x4.json)
 
 - [field_rainstorm](./src?v=7&d=settings/field_rainstorm.json)
