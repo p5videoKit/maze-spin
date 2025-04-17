@@ -28,4 +28,6 @@ let videoKit_config = {
     { label: 'radial_bounce', import_path: 'settings/radial_bounce.json' },
     { label: 'radial_bounce_1x4', import_path: 'settings/radial_bounce_1x4.json' },
   ],
+
+  videos: [{ label: 'P2TP', import_path: 'videos/JohnHenry-P2TP-WEB_ShortVersion.mp4' }],
 };
