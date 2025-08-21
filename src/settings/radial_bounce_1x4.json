@@ -1,0 +1,94 @@
+{
+  "setting": "",
+  "comment": "radial bounce 1x4",
+  "back_color": 200,
+  "room_name": "VideoKit-Room-1",
+  "patch_layout": "1x4",
+  "canvas_size": "540x960",
+  "capture_size": "480x270",
+  "render_size": "Canvas",
+  "chat_name": "jht",
+  "chat_chk": 0,
+  "live_index": 0,
+  "live_chk": 0,
+  "urects_lock": 0,
+  "urects_count": 4,
+  "canvas_resize_ref": "",
+  "canvas_data_chk": 0,
+  "audio_enabled": 0,
+  "mediaDiv_states": [
+    null,
+    {
+      "vis": 0,
+      "mute": 1
+    }
+  ],
+  "patches": [
+    {
+      "eff_spec": {
+        "ipatch": 0,
+        "imedia": 1,
+        "eff_label": "radial_bounce",
+        "urect": {
+          "x0": 0,
+          "y0": 0,
+          "width": 540,
+          "height": 240
+        }
+      },
+      "eff_props": {
+        "npoints": 9000
+      }
+    },
+    {
+      "eff_spec": {
+        "ipatch": 1,
+        "imedia": 1,
+        "eff_label": "radial_bounce",
+        "urect": {
+          "x0": 0,
+          "y0": 240,
+          "width": 540,
+          "height": 240
+        },
+        "iflipv": 1
+      },
+      "eff_props": {
+        "npoints": 9000
+      }
+    },
+    {
+      "eff_spec": {
+        "ipatch": 2,
+        "imedia": 1,
+        "eff_label": "radial_bounce",
+        "urect": {
+          "x0": 0,
+          "y0": 480,
+          "width": 540,
+          "height": 240
+        }
+      },
+      "eff_props": {
+        "npoints": 9000
+      }
+    },
+    {
+      "eff_spec": {
+        "ipatch": 3,
+        "imedia": 1,
+        "eff_label": "radial_bounce",
+        "urect": {
+          "x0": 0,
+          "y0": 720,
+          "width": 540,
+          "height": 240
+        },
+        "iflipv": 1
+      },
+      "eff_props": {
+        "npoints": 9000
+      }
+    }
+  ]
+}
